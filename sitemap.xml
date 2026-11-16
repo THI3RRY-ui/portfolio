@@ -1,172 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://YOUR-DOMAIN.com/</loc>
+    <loc>https://mihthierry.pages.dev/</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/rentveed-hero.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/rentveed-hero.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/safetiding-hero.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/safetiding-hero.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/typofeel-hero.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/typofeel-hero.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/about</loc>
+    <loc>https://mihthierry.pages.dev/about</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/about-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/about-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/services</loc>
+    <loc>https://mihthierry.pages.dev/services</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/developer</loc>
+    <loc>https://mihthierry.pages.dev/developer</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/design</loc>
+    <loc>https://mihthierry.pages.dev/design</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-gallery-01.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-gallery-01.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-gallery-02.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-gallery-02.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-gallery-03.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-gallery-03.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-gallery-04.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-gallery-04.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-gallery-05.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-gallery-05.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-gallery-06.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-gallery-06.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-acf-01.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-acf-01.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-cre8tive-brand.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-cre8tive-brand.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/design-pinterest-boards.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/design-pinterest-boards.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/contact</loc>
+    <loc>https://mihthierry.pages.dev/contact</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/rentveed</loc>
+    <loc>https://mihthierry.pages.dev/rentveed</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/rentveed-hero.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/rentveed-hero.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/rentveed-web.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/rentveed-web.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/safetiding</loc>
+    <loc>https://mihthierry.pages.dev/safetiding</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/safetiding-hero.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/safetiding-hero.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/safetiding-screen-01.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/safetiding-screen-01.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/typofeel</loc>
+    <loc>https://mihthierry.pages.dev/typofeel</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/typofeel-hero.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/typofeel-hero.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/africsis</loc>
+    <loc>https://mihthierry.pages.dev/africsis</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/lion-force</loc>
+    <loc>https://mihthierry.pages.dev/lion-force</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/lfic-desktop-home.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/lfic-desktop-home.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/events</loc>
+    <loc>https://mihthierry.pages.dev/events</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/skills</loc>
+    <loc>https://mihthierry.pages.dev/skills</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/experience</loc>
+    <loc>https://mihthierry.pages.dev/experience</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://YOUR-DOMAIN.com/images/home-hero-portrait.jpg</image:loc>
+      <image:loc>https://mihthierry.pages.dev/images/home-hero-portrait.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/images/Mih-Thierry-CV.pdf</loc>
+    <loc>https://mihthierry.pages.dev/images/Mih-Thierry-CV.pdf</loc>
     <lastmod>2026-11-16</lastmod>
     <priority>0.5</priority>
   </url>
