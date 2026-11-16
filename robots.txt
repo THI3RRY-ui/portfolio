@@ -4,4 +4,4 @@ Allow: /
 # Not meant to show up in search results
 Disallow: /images/WhatsApp
 
-Sitemap: https://YOUR-DOMAIN.com/sitemap.xml
+Sitemap: https://mihthierry.pages.dev/sitemap.xml
