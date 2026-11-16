@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Event technology | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="events">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>Event technology.</h1>
+          <p>
+            I run the technology side of your conference, from registration links to attendee data,
+            so you can focus on the program.
+          </p>
+          <div class="acts"><a class="btn" href="contact.html">Plan your event tech</a></div>
+        </div>
+      </header>
+      <section>
+        <div class="w">
+          <h2>What I handle</h2>
+          <div class="cards">
+            <div class="card">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-globe" /></svg>
+              </span>
+              <h3>Registration pages</h3>
+              <p>A custom sign-up link where people register in two minutes from their phone.</p>
+            </div>
+            <div class="card">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-ticket" /></svg>
+              </span>
+              <h3>Ticketing and payments</h3>
+              <p>
+                Early bird and regular prices, mobile money and card payment, confirmation on
+                payment.
+              </p>
+            </div>
+            <div class="card">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-chart" /></svg>
+              </span>
+              <h3>Attendee data</h3>
+              <p>Every sign-up saved in one clean list you can export, with no lost entries.</p>
+            </div>
+            <div class="card">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-users" /></svg>
+              </span>
+              <h3>Check-in and access</h3>
+              <p>Name lists and ticket checks at the door so queues move.</p>
+            </div>
+            <div class="card">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-chat" /></svg>
+              </span>
+              <h3>Communication</h3>
+              <p>
+                WhatsApp group links, confirmation messages and reminders sent to the right people.
+              </p>
+            </div>
+            <div class="card">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-code" /></svg>
+              </span>
+              <h3>Event information pages</h3>
+              <p>
+                Countdown, schedule, speakers and venue details on one page that works on any phone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="grey">
+        <div class="w two" style="align-items: start">
+          <div><h2>How we work together</h2></div>
+          <div class="tl">
+            <div>
+              <b>Brief</b>
+              You tell me the event, dates, ticket prices and what data you need.
+            </div>
+            <div>
+              <b>Build</b>
+              I set up registration, payments and information pages and test them with you.
+            </div>
+            <div>
+              <b>Run</b>
+              I monitor sign-ups, fix problems fast and keep your attendee list up to date.
+            </div>
+            <div>
+              <b>Report</b>
+              After the event you get the full data and a summary of turnout.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w">
+          <div class="card">
+            <h3>What this is not</h3>
+            <p>
+              I handle the technology only. Photography, video and media coverage are not part of
+              this service.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

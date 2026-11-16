@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TypoFeel | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="typofeel">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>TypoFeel</h1>
+          <p>
+            Mood tools usually read what people write. TypoFeel looks only at how people type, so
+            private words stay private.
+          </p>
+          <div class="acts">
+            <a
+              class="btn y"
+              href="https://github.com/THI3RRY-ui/TypoFeel_Backend"
+              target="_blank"
+              rel="noopener"
+            >
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="w">
+          <div class="facts">
+            <div>
+              <b>Role</b>
+              AI Developer and ML Engineer
+            </div>
+            <div>
+              <b>Team and time</b>
+              December 2025 to August 2026
+            </div>
+            <div>
+              <b>Result</b>
+              Working model with a live interface
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="padding-top: 0">
+        <div class="w two" style="align-items: start">
+          <div>
+            <h2>What it does</h2>
+            <ul class="pts">
+              <li>Keystroke dynamics dataset collected and cleaned</li>
+              <li>Trained model served through a Python API</li>
+              <li>Insights shown without ever reading typed content</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Built with</h3>
+            <div class="tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>Supabase</span>
+              <span>Render</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="grey">
+        <div class="w">
+          <h2>Try the idea</h2>
+          <p>
+            Type anything below. Only the gaps between keystrokes are measured, never the words.
+            This is a rhythm preview, not a mood reading.
+          </p>
+          <textarea id="ty" rows="3" placeholder="Start typing here"></textarea>
+          <div class="rh" id="rh"></div>
+        </div>
+      </section>
+      <section>
+        <div class="w">
+          <div class="gal">
+            <figure class="fig" data-alt="TypoFeel interface">
+              <img src="images/typofeel-hero.jpg" alt="TypoFeel interface" onerror="fb(this)" />
+            </figure>
+            
+          </div>
+        </div>
+      </section>
+      <a class="next dark" href="africsis.html">
+        <div class="w">
+          <small>Next project</small>
+          <h2>Africsis</h2>
+        </div>
+      </a>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

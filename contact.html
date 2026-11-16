@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="contact">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>Contact and hire me.</h1>
+          <p>
+            Have a project, an event or an idea? Message me on WhatsApp for the fastest reply, or
+            use the form below. I reply within two days.
+          </p>
+          <div class="acts">
+            <a class="btn" href="https://wa.me/237654989932" target="_blank" rel="noopener">
+              <svg class="ic" aria-hidden="true"><use href="#i-chat" /></svg>
+              Chat on WhatsApp
+            </a>
+            <a class="btn o" href="mailto:mihthierry237@gmail.com">
+              <svg class="ic" aria-hidden="true"><use href="#i-mail" /></svg>
+              Send an email
+            </a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="w two" style="align-items: start">
+          <div>
+            <h2>Send a message</h2>
+            <p>
+              Pick what you need and write a few lines. Your message opens ready to send, so nothing
+              is sent until you tap.
+            </p>
+            <form class="fm" id="cf" novalidate>
+              <div class="alert" id="fa" role="alert" hidden></div>
+              <input
+                id="nm"
+                name="name"
+                placeholder="Your name"
+                aria-label="Your name"
+                autocomplete="name"
+                aria-describedby="nm-er"
+                required
+              />
+              <div class="er" id="nm-er" hidden></div>
+              <select id="tp" name="topic" aria-label="What do you need" aria-describedby="tp-er" required>
+                <option value="" selected disabled>What do you need?</option>
+                <option>Website</option>
+                <option>Mobile app</option>
+                <option>Branding and design</option>
+                <option>Conference technology</option>
+                <option>Data analysis</option>
+                <option>Collaboration or community</option>
+                <option>Something else</option>
+              </select>
+              <div class="er" id="tp-er" hidden></div>
+              <textarea
+                id="ms"
+                name="message"
+                rows="5"
+                placeholder="Tell me about it"
+                aria-label="Your message"
+                aria-describedby="ms-er"
+                required
+              ></textarea>
+              <div class="er" id="ms-er" hidden></div>
+              <div class="acts">
+                <button class="btn" id="sw" type="button">
+                  <svg class="ic" aria-hidden="true"><use href="#i-chat" /></svg>
+                  Send on WhatsApp
+                </button>
+                <button class="btn o" id="se" type="submit">
+                  <svg class="ic" aria-hidden="true"><use href="#i-mail" /></svg>
+                  Send by email
+                </button>
+              </div>
+              <div class="mailfb" id="mf" hidden>
+                <p>
+                  Your email app did not open? No problem. Send the same message another way:
+                </p>
+                <div class="acts">
+                  <a class="btn o" id="mf-g" target="_blank" rel="noopener">Gmail</a>
+                  <a class="btn o" id="mf-o" target="_blank" rel="noopener">Outlook</a>
+                  <a class="btn o" id="mf-y" target="_blank" rel="noopener">Yahoo Mail</a>
+                  <button class="btn o" id="mf-c" type="button">Copy message</button>
+                </div>
+                <small id="mf-s" role="status"></small>
+              </div>
+            </form>
+          </div>
+          <div>
+            <h2>Find me online</h2>
+            <div class="scs" style="grid-template-columns: 1fr">
+              <a
+                class="sc"
+                href="https://www.linkedin.com/in/mih-thierry-01a104377"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="ib">
+                  <svg class="ic" aria-hidden="true"><use href="#i-in" /></svg>
+                </span>
+                <b>LinkedIn</b>
+                <span>My professional profile, experience and education.</span>
+                <svg class="ic go" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </a>
+              <a class="sc" href="https://pin.it/66Hg5fz6U" target="_blank" rel="noopener">
+                <span class="ib">
+                  <svg class="ic" aria-hidden="true"><use href="#i-pin" /></svg>
+                </span>
+                <b>Pinterest</b>
+                <span>The design references and boards behind my work.</span>
+                <svg class="ic go" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </a>
+              <a class="sc" href="https://github.com/THI3RRY-ui" target="_blank" rel="noopener">
+                <span class="ib">
+                  <svg class="ic" aria-hidden="true"><use href="#i-code" /></svg>
+                </span>
+                <b>GitHub</b>
+                <span>Code for RentVeed, SafetiDing, TypoFeel and client sites.</span>
+                <svg class="ic go" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </a>
+              <a class="sc" href="https://wa.me/237654989932" target="_blank" rel="noopener">
+                <span class="ib">
+                  <svg class="ic" aria-hidden="true"><use href="#i-chat" /></svg>
+                </span>
+                <b>WhatsApp</b>
+                <span>The fastest way to reach me.</span>
+                <svg class="ic go" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </a>
+              <a class="sc" href="mailto:mihthierry237@gmail.com">
+                <span class="ib">
+                  <svg class="ic" aria-hidden="true"><use href="#i-mail" /></svg>
+                </span>
+                <b>Email</b>
+                <span>mihthierry237@gmail.com</span>
+                <svg class="ic go" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </a>
+            </div>
+            <p style="margin-top: 24px">
+              <svg class="ic" aria-hidden="true"><use href="#i-pin" /></svg>
+              Quatre Etages, Bonaberi, Douala, Cameroon
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

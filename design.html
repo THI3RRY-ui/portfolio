@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Branding and Design | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="design">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>Branding and Design.</h1>
+          <p>Photoshop, branding and graphics. Posters and identities that grew communities.</p>
+        </div>
+      </header>
+      <section>
+        <div class="w">
+          <div class="gal">
+            <figure class="fig sq" data-alt="Brand identity set on a flat background">
+              <img
+                src="images/design-gallery-01.jpg"
+                alt="Brand identity set on a flat background"
+                onerror="fb(this)"
+              />
+            </figure>
+            <figure class="fig t" data-alt="Event poster in portrait format">
+              <img
+                src="images/design-gallery-02.jpg"
+                alt="Event poster in portrait format"
+                onerror="fb(this)"
+              />
+            </figure>
+            <figure class="fig sq" data-alt="Square social media graphic">
+              <img
+                src="images/design-gallery-03.jpg"
+                alt="Square social media graphic"
+                onerror="fb(this)"
+              />
+            </figure>
+            <figure class="fig t" data-alt="Flyer for a community program">
+              <img
+                src="images/design-gallery-04.jpg"
+                alt="Flyer for a community program"
+                onerror="fb(this)"
+              />
+            </figure>
+            <figure class="fig sq" data-alt="Logo and icon presentation">
+              <img
+                src="images/design-gallery-05.jpg"
+                alt="Logo and icon presentation"
+                onerror="fb(this)"
+              />
+            </figure>
+            <figure class="fig t" data-alt="Poster with bold typography">
+              <img
+                src="images/design-gallery-06.jpg"
+                alt="Poster with bold typography"
+                onerror="fb(this)"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="grey">
+        <div class="w two">
+          <div>
+            <h2>ACF Buea design board</h2>
+            <p>10+ designs over two years that widened the fellowship’s reach to local youth.</p>
+          </div>
+          <figure class="fig t" data-alt="ACF Buea poster">
+            <img src="images/design-acf-01.jpg" alt="ACF Buea poster" onerror="fb(this)" />
+          </figure>
+        </div>
+      </section>
+      <section>
+        <div class="w two">
+          <div>
+            <h2>Cre8tive Designers Hub</h2>
+            <p>
+              I lead online graphic design training so young people can earn from design while still
+              in school.
+            </p>
+          </div>
+          <figure class="fig" data-alt="Cre8tive Designers Hub logo and flyers">
+            <img
+              src="images/design-cre8tive-brand.jpg"
+              alt="Cre8tive Designers Hub logo and flyers"
+              onerror="fb(this)"
+            />
+          </figure>
+        </div>
+      </section>
+      <section class="grey">
+        <div class="w two">
+          <div>
+            <h2>Boards and inspiration</h2>
+            <p>
+              My Pinterest holds the references, layouts and color studies behind my branding and
+              design work.
+            </p>
+            <a class="btn" href="https://pin.it/66Hg5fz6U" target="_blank" rel="noopener">
+              <svg class="ic" aria-hidden="true"><use href="#i-pin" /></svg>
+              Open my Pinterest
+            </a>
+          </div>
+          <figure class="fig" data-alt="Screenshot of Thierry’s Pinterest boards">
+            <img
+              src="images/design-pinterest-boards.jpg"
+              alt="Screenshot of Thierry’s Pinterest boards"
+              onerror="fb(this)"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

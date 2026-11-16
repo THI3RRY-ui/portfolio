@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SafetiDing | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="safetiding">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>SafetiDing</h1>
+          <p>
+            In an emergency there is rarely a fast way to tell trusted people where you are.
+            SafetiDing sends your live location with one tap.
+          </p>
+          <div class="acts">
+            <a
+              class="btn y"
+              href="https://github.com/THI3RRY-ui/SafetiDing"
+              target="_blank"
+              rel="noopener"
+            >
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="w">
+          <div class="facts">
+            <div>
+              <b>Role</b>
+              Systems and Mobile Software Engineer
+            </div>
+            <div>
+              <b>Team and time</b>
+              Team of 2, November 2025 to July 2026
+            </div>
+            <div>
+              <b>Result</b>
+              About 94% success across 20 trial runs
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="padding-top: 0">
+        <div class="w two" style="align-items: start">
+          <div>
+            <h2>What it does</h2>
+            <ul class="pts">
+              <li>One tap SOS trigger</li>
+              <li>Live GPS tracking sent to trusted contacts</li>
+              <li>Alert events synced to the cloud</li>
+              <li>Tested at sub-second dispatch</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Built with</h3>
+            <div class="tags">
+              <span>Flutter</span>
+              <span>Dart</span>
+              <span>Firebase Cloud Messaging</span>
+              <span>Supabase</span>
+              <span>MySQL</span>
+              <span>Git</span>
+              <span>+More Frameworks</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w">
+          <div class="gal">
+            <figure class="fig p" data-alt="SafetiDing SOS screen">
+              <img
+                src="images/safetiding-hero.jpg"
+                alt="SafetiDing SOS screen"
+                onerror="fb(this)"
+              />
+            </figure>
+            <figure class="fig p" data-alt="SafetiDing live map during an alert">
+              <img
+                src="images/safetiding-screen-01.jpg"
+                alt="SafetiDing live map during an alert"
+                onerror="fb(this)"
+              />
+            </figure>
+            
+          </div>
+        </div>
+      </section>
+      <a class="next dark" href="typofeel.html">
+        <div class="w">
+          <small>Next project</small>
+          <h2>TypoFeel</h2>
+        </div>
+      </a>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

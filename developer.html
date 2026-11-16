@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Developer | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="developer">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>Developer.</h1>
+          <p>
+            Five projects: three apps and two client websites, plus the event technology I run for
+            conferences.
+          </p>
+        </div>
+      </header>
+      <section>
+        <div class="w">
+          <div class="chips">
+            <button class="on">All</button>
+            <button class="">Mobile</button>
+            <button class="">Web</button>
+            <button class="">AI</button>
+            <button class="">Client</button>
+            <button class="">Service</button>
+          </div>
+          <div class="list">
+            <a href="rentveed.html" data-g="Mobile Web">
+              <div>
+                <h3>RentVeed</h3>
+                <p style="margin: 6px 0 0">Founder and Lead Developer</p>
+              </div>
+              <span>
+                Mobile Web
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+            <a href="safetiding.html" data-g="Mobile">
+              <div>
+                <h3>SafetiDing</h3>
+                <p style="margin: 6px 0 0">Systems and Mobile Software Engineer</p>
+              </div>
+              <span>
+                Mobile
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+            <a href="typofeel.html" data-g="AI">
+              <div>
+                <h3>TypoFeel</h3>
+                <p style="margin: 6px 0 0">AI Developer and ML Engineer</p>
+              </div>
+              <span>
+                AI
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+            <a href="africsis.html" data-g="Web Client">
+              <div>
+                <h3>Africsis</h3>
+                <p style="margin: 6px 0 0">Web Developer</p>
+              </div>
+              <span>
+                Web Client
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+            <a href="lion-force.html" data-g="Web Client">
+              <div>
+                <h3>Lion Force Investment</h3>
+                <p style="margin: 6px 0 0">Web Developer</p>
+              </div>
+              <span>
+                Web Client
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+            <a href="events.html" data-g="Service">
+              <div>
+                <h3>Event technology</h3>
+                <p style="margin: 6px 0 0">Conference registration, payments and attendee data</p>
+              </div>
+              <span>
+                Service
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

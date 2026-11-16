@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Experience | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="experience">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>Experience.</h1>
+          <p>Follow my journey from my first role to today.</p>
+        </div>
+      </header>
+      <section>
+        <div class="w">
+          <div class="jhint">
+            <svg class="ic" aria-hidden="true"><use href="#i-down" /></svg>
+            Scroll down to follow the journey, oldest first
+          </div>
+          <div class="jr" id="jr">
+            <div class="jl"><i id="jf"></i></div>
+            <ol id="jlist"></ol>
+          </div>
+          <div class="acts" style="margin-top: 20px">
+            <a class="btn" href="images/Mih-Thierry-CV.pdf">Download my CV</a>
+            <a
+              class="btn o"
+              href="https://www.linkedin.com/in/mih-thierry-01a104377"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg class="ic" aria-hidden="true"><use href="#i-in" /></svg>
+              See LinkedIn profile
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

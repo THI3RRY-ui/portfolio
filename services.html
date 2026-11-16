@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Services | Mih Thierry Aji</title>
+    <meta
+      name="description"
+      content="Software developer and Data Science graduate in Douala, Cameroon, building apps, AI and design for local problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function fb(i) {
+        var k = +(i.dataset.k || 0),
+          X = ["png", "webp", "jpeg"];
+        if (k < 3) {
+          i.dataset.k = k + 1;
+          i.src = i.src.replace(/\.[a-z]+$/i, "." + X[k]);
+        } else i.remove();
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="services">
+    <div id="site-header"></div>
+    <main>
+      <header class="hero s">
+        <div class="w">
+          <h1>Services.</h1>
+          <p>Pick a service to see how I work and what I have built.</p>
+        </div>
+      </header>
+      <section>
+        <div class="w">
+          <div class="cards">
+            <a class="card" href="developer.html">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-code" /></svg>
+              </span>
+              <h3>Developer</h3>
+              <p>
+                Websites, mobile apps and AI tools built with Flutter, Supabase, Python and the web
+                stack.
+              </p>
+              <ul class="mini">
+                <li>RentVeed, SafetiDing and TypoFeel</li>
+                <li>Client websites for organizations</li>
+                <li>Data and AI models</li>
+              </ul>
+              <span class="more">
+                Open this service
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+            <a class="card" href="design.html">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-pen" /></svg>
+              </span>
+              <h3>Branding and Design</h3>
+              <p>Identity and graphics that help people recognise and trust you.</p>
+              <ul class="mini">
+                <li>Logos and brand identities</li>
+                <li>Posters, flyers and social graphics</li>
+                <li>Online design training for others</li>
+              </ul>
+              <span class="more">
+                Open this service
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+            <a class="card" href="events.html">
+              <span class="ib">
+                <svg class="ic" aria-hidden="true"><use href="#i-ticket" /></svg>
+              </span>
+              <h3>Event technology</h3>
+              <p>The technology side of your conference, so you can focus on the program.</p>
+              <ul class="mini">
+                <li>Registration pages and payments</li>
+                <li>Attendee data and check-in</li>
+                <li>Event information pages</li>
+              </ul>
+              <span class="more">
+                Open this service
+                <svg class="ic" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="grey">
+        <div class="w">
+          <div class="cta">
+            <h2>Not sure which one you need?</h2>
+            <p>Tell me about your project and I will point you to the right one.</p>
+            <a class="btn" href="contact.html">Contact and hire me</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
